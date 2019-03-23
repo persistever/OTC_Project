@@ -1,5 +1,7 @@
-/ObstacleTower/*
-/.idea/*
+/ObstacleTower
+/.idea
+/checkpoints
+/logs
 *.log
 *.md
 *.dll
