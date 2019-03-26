@@ -49,7 +49,7 @@ import tensorflow as tf
 import gin.tf
 
 slim = tf.contrib.slim
-
+a=0
 
 @gin.configurable
 class RainbowAgent(dqn_agent.DQNAgent):
