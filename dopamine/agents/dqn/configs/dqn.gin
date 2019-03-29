@@ -27,7 +27,7 @@ tf.train.RMSPropOptimizer.centered = True
 
 
 # Sticky actions with probability 0.25, as suggested by (Machado et al., 2017).
-create_otc_environment.environment_filename = "D:\\Unity\\otc\\ObstacleTower\\obstacletower.exe"
+create_otc_environment.environment_filename = "D:\\Project\\Unity\\OTC_Project\\ObstacleTower\\obstacletower.exe"
 create_agent.agent_name = 'dqn'
 Runner.create_environment_fn = @create_otc_environment
 Runner.num_iterations = 200
